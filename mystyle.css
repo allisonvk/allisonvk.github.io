@@ -1,0 +1,14 @@
+     body{
+        text-align:center;
+        background-color:gray;
+        color:pink
+      }
+
+#container{
+  background-color:white;
+  color:gray;
+  margin:25px;
+  padding:25px;
+  border-radius:15px;
+  
+}

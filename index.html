@@ -1,10 +1,37 @@
 <html>
   <head>
-    <title>Welcome!</title>  
+    <title>Issa Joke!</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    
+    <script>
+      function changePic(){
+        document.getElementById("party").src="http://weknowmemes.com/generator/uploads/generated/g1452485015699554509.jpg";
+      }
+    
+    </script>
   </head>
   <body>
-    Hello World!
-    My name is Allison K.
-    Thanks for coming to my page!
+    <div id="container" >
+      
+      <p id="nav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About me</a>
+        <a href="projects.html">My Projects</a>
+      </p>
+      <h1>
+        Press the picture below!
+      </h1>  
+      
+      <p>
+        <a href="http://images.digopaul.com/wp-content/uploads/related_images/2015/09/08/sike_3.jpg" />
+            <img id="party" style="height:200px;" src="https://s-media-cache-ak0.pinimg.com/originals/15/69/18/1569182838df53706f15f586e602dbd4.gif" />
+      </a>
+      </p>
+  
+      <p>
+        <input type="button" value="Now press this button! You can trust me!" onclick="changePic();"/>
+      </p>
+  
+    </div>
   </body>
 </html>
