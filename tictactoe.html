@@ -21,6 +21,13 @@
       document.getElementById(divId).innerHTML=chosenSymbol;
     }
       
+    if(chosenSymbol == 'x'){
+      chosenSymbol = 'o';
+    }
+    else{
+      chosenSymbol = 'x';
+    }
+      
     checkWinner();
   }
     
