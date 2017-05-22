@@ -16,16 +16,18 @@
       //alert("chosen symbol: " + chosenSymbol);
     }
     
+     function switchSymbols(){
+       if(chosenSymbol == 'x'){
+      chosenSymbol = 'o';
+       }
+    else{
+      chosenSymbol = 'x';
+       } 
+     }
+    
     function makeMove(divId){
       if(document.getElementById(divId).innerHTML == ""){
       document.getElementById(divId).innerHTML=chosenSymbol;
-    }
-      
-    if(chosenSymbol == 'x'){
-      chosenSymbol = 'o';
-    }
-    else{
-      chosenSymbol = 'x';
     }
       
     checkWinner();
